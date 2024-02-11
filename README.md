@@ -48,7 +48,7 @@ if __name__ == "__main__":
 
 
 
-################# Plotting the three problem density functions against the test function for importance sampling ###############
+# Plotting the three problem density functions against the test function for importance sampling #
 
 x = np.linspace(0, 10, 1000)
 plt.figure(figsize=(10, 5))
@@ -95,7 +95,7 @@ plt.tight_layout()
 plt.savefig('86.png',dpi=300)
 
 
-############## Plotting the function we used for the standard test with the chosen probabilty density function #################
+# Plotting the function we used for the standard test with the chosen probabilty density function #
 
 x = np.linspace(0, 10, 1000)
 y = np.exp(-2*np.abs(x-5)) 
